@@ -2,6 +2,8 @@ package aoc_2020.day_1
 
 import java.io.File
 
+// Problem Statement : https://adventofcode.com/2020/day/1
+
 fun main(args: Array<String>) {
     val input = File("src/main/resources/inputs/day_1.txt").readLines().map {
         it.toInt()
