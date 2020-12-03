@@ -30,7 +30,7 @@ class Password(
 ) {
     //For first part of problem
     fun isValidByCountPolicy(): Boolean {
-        val count = value.filter { it.toString() == givenLetter }.length
+        val count = value.count { it.toString() == givenLetter }
         return count in firstNumber..secondNumber
     }
 
